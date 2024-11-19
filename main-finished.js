@@ -1,5 +1,6 @@
-// set up canvas
+alert("Move WASD to eat the balls!")
 
+// set up canvas
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
@@ -141,7 +142,7 @@ class EvilCircle extends Shape {
 const balls = [];
 
 let eatenBalls = 0
-let startingBalls = 250
+let startingBalls = 25
 
 while (balls.length < startingBalls) {
   const size = random(10, 20);
